@@ -5,9 +5,44 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(right, rgba(154,238,154,.4)0%, rgpa(154,238,154,.4)0%);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.card{
+  background-color: rgba(154,238,154,.4);
+  margin: 8px;
+  padding: 3px;
+  text-align: center;
+  transition: transform .1s ease-in;
+  border-radius: 15px;
+  box-shadow:0px 0px 10px rgba(0,0,0,.4);
+  width: 300px;
+  height: 400px;
+}
+
+.cardimg{
+  width: 250px;
+  align-self: center;
+  padding: 10px;
+}
+.card:hover{
+  transform: scale(1.05);
+}
+
+.center{
+  text-align: center;
+  justify-items: center;
+}
+
+input[type='search']{
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+}
+.row{
+  justify-content: center;
 }
